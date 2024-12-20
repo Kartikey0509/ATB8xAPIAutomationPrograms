@@ -1,4 +1,4 @@
-package com.thetestingacademy.sampleCheck;
+package com.thetestingacademy;
 
 public class HelloWorld {
     public static void main(String[] args) {
