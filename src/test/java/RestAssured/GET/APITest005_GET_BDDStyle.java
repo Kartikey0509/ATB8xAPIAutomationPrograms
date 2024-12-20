@@ -1,5 +1,7 @@
 package RestAssured.GET;
 
+
+
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
@@ -10,16 +12,16 @@ public class APITest005_GET_BDDStyle {
         String pin_code = "388620";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us")
-                .basePath("/IN/" + pin_code)
+                     .baseUri("https://api.zippopotam.us")
+                         .basePath("/IN/" + pin_code)
                 .when()
-                .log()
-                .all()
+                    .log()
+                     .all()
                 .get()
-                .then()
-                .log()
-                .all()
-                .statusCode(200);
+                    .then()
+                        .log()
+                            .all()
+                             .statusCode(200);
 
 
     }
@@ -41,4 +43,5 @@ public class APITest005_GET_BDDStyle {
                 .statusCode(200);
 
     }
+
 }

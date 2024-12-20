@@ -1,6 +1,6 @@
 package RestAssured.GET;
 
-import com.thetestingacademy.sampleCheck.APITest003_NoDesignPattern;
+import sampleCheck.APITest003_NoDesignPattern;
 
 public class APITest004_GET {
 

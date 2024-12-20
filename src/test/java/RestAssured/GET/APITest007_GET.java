@@ -3,7 +3,7 @@ package RestAssured.GET;
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
-public class APITest_GET {
+public class APITest007_GET {
 
     @Test
     public void test_Get_Request(){

@@ -9,9 +9,9 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
 public class APITest006_GET_NonBDDStyle {
-  static RequestSpecification r = RestAssured.given();
-@Severity(SeverityLevel.CRITICAL)
-  @Description("TC1 NonBDDStyle Positive")
+    static RequestSpecification r = RestAssured.given();
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("TC1 NonBDDStyle Positive")
     @Test
     public void test_NonBDDStyle_positive(){
 

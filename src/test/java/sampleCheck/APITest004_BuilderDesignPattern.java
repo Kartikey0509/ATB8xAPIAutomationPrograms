@@ -1,4 +1,4 @@
-package com.thetestingacademy.sampleCheck;
+package sampleCheck;
 
 public class APITest004_BuilderDesignPattern {
     // Change return type of each method as Class type

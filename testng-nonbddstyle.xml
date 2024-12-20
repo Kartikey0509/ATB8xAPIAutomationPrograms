@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/karti/IdeaProjects/ATB8xAPIAutomationPrograms">
     <classes>
 
-        <class name="RestAssured.GET.APITest006_GET_NonBDDStyle"></class>
+        <class name="RestAssured.APITest006_GET_NonBDDStyle"></class>
     </classes>
 </test>
 </suite>
